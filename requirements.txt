@@ -1,0 +1,30 @@
+# Universal Data Analysis Tool
+#
+# A powerful, user-friendly web app for analyzing any Excel or CSV file—no coding required!
+# Built with Streamlit and Pandas, this tool empowers anyone to explore, summarize, and visualize their data with just a few clicks.
+#
+# Features:
+# - Upload any Excel or CSV file (no template required)
+# - Automatic detection of numeric columns
+# - Interactive data preview with filtering
+# - Descriptive statistics (mean, median, min, max, std) for selected columns
+# - Plain-language summary insights for easy understanding
+# - Conditional formatting to highlight key values
+# - Compare any rows and columns side-by-side
+# - Visualizations: Bar chart, Line chart, Box plot
+# - Export statistics, comparisons, and plots (CSV, Excel, PNG)
+# - No coding skills required!
+#
+# Usage:
+# 1. pip install -r requirements.txt
+# 2. streamlit run main.py
+# 3. Open your browser to the provided local URL
+# 4. Upload your Excel/CSV file and start exploring!
+#
+# For more details, see README.md
+
+streamlit
+pandas
+matplotlib
+openpyxl
+seaborn
